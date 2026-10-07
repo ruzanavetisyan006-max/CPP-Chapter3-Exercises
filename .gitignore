@@ -1,0 +1,24 @@
+# Ignore VS Code configuration folder
+.vscode/
+
+# Ignore compiled executables and object files in all subfolders
+**/*.exe
+**/*.exe.recipe
+**/*.ilk
+**/*.obj
+**/*.pdb
+**/*.ipch
+**/*.pch
+**/*.idb
+
+# Ignore build output directories
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/Build/
+.vs/
+
+# Ignore logs
+**/*.log
+**/*.tlog+
